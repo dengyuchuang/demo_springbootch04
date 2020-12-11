@@ -23,7 +23,7 @@
        </tr>      
    </table>
     <%
-        UserImpl  sui=new UserImpl();
+        UserImpl sui=new UserImpl();
         List<user> lis=sui.show1();
         for(user li: lis){
         	out.println(li.getId());
